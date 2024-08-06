@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous Gradient Background Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="center-text">你永远是bp50玩家</div>
+    </div>
+    <div class="overlay initializing">
+        <div class="countdown">正在初始化 还有10秒</div>
+        <div class="tip">tips：点击空白区域可以显示、隐藏按钮</div>
+    </div>
+    <div class="button-container">
+        <button id="button-bp50">bp50</button>
+        <button id="button-mg42">mg42</button>
+        <button id="button-codm">codm</button>
+    </div>
+    <audio id="bg-audio" loop>
+        <source src="bp.wav" type="audio/wav">
+        您的浏览器不支持音频播放。
+    </audio>
+    <script src="scripts.js"></script>
+</body>
+</html>
